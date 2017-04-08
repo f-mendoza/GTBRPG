@@ -72,7 +72,7 @@ func flee(HPPorcent float64) {
   fleeRandom := randomNumber(100)
   if fleeRandom <= int(fleePorcent) {
     fmt.Println("¡Has escapado!")
-    //goToTown()
+    goToTown()
   } else {
     fmt.Println("No pudiste escapar")
     //nextTurn()
